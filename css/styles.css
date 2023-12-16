@@ -197,6 +197,19 @@ a {
   justify-content: space-between;
   margin-bottom: 48px;
 }
+.filter-search-wrapper {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 32px;
+  top: 18px;
+  width: 18px;
+  height: 18px;
+  color: #848484;
+  pointer-events: none;
+}
 
 .filters-search-input {
   padding: 18px 74px;
