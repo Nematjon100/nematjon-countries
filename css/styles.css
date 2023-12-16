@@ -207,9 +207,11 @@ a {
   top: 18px;
   width: 18px;
   height: 18px;
-  color: #848484;
+  color: var(--text-color);
   pointer-events: none;
 }
+
+
 
 .filters-search-input {
   padding: 18px 74px;
@@ -220,6 +222,10 @@ a {
   background-color: var(--element-bg);
   color: var(--text-color);
   box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+}
+
+.filters-search-input::placeholder {
+  color: var(--text-color);
 }
 
 .filters-region-select {
